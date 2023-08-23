@@ -1,0 +1,37 @@
+.div-class2,.div-class1{
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  grid-template-rows:50px 50px 50px ;
+  column-gap: 10px;
+  gap: 30px;
+  padding: 10px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.div-class1{
+  
+  align-items: stretch;
+}
+.input-todo,.date-input{
+  padding-left: 30px;
+  
+}
+
+.btn-class{
+  background-color: green;
+  color: white;
+
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+}
+.btn-delete{
+  background-color: red;
+  color: white;
+ align-self: stretch;
+}
+.div-class2>div{
+  padding-left: 30PX;
+}
